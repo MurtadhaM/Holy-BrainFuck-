@@ -3,13 +3,32 @@
 
  <img src="./holy-brainfuck-images/logo-no-background.png" width="100%">
 
-<a href="http://findasnake.com">
+<a href="http://findasnake.com"></a>
 
 ---
 
 ![](https://img.shields.io/badge/HOLY_BRAIN_FUCK-Introduction-red)
 
-Welcome to my awesome project! This project is designed to do amazing things and make your life easier. 
+hbf or (Holy Brain Fuck ) is a small project I created to help me learn more about programming languages
+ 
+Function: It takes in a brainfuck source code and interprets it in Rust like a. This maybe a front to all thing good and holy but it was fun. It is like cursing but in shakespearean style
+
+---
+## Resources:
+
+---
+![](https://img.shields.io/badge/QuickLinks-Resources-blue)
+
+##### Here are some useful links related to Brainfuck that I used:
+
+
+- [Article by Ben Wendt](https://benwendt.ca/articles/converting-to-bf)
+- [Brainfuck Visualizer Logo](https://github.com/usaikiran/brainfuck-visualizer)
+- [The Rust Book](https://doc.rust-lang.org/book/) 
+- [The Brainfuck Programming Language](http://www.muppetlabs.com/~breadbox/bf/) ![Brainfuck Programming Language Logo](https://www.google.com/s2/favicons?domain=http://www.muppetlabs.com)
+- [Brainfuck Derivatives](https://esolangs.org/wiki/Category:Brainfuck_derivatives) ![Brainfuck Derivatives Logo](https://www.google.com/s2/favicons?domain=https://esolangs.org)
+- [Minimal Languages](http://www.chriswarbo.net/blog/2014-12-22-minimal_languages.html) ![Minimal Languages Logo](https://www.google.com/s2/favicons?domain=http://www.chriswarbo.net)
+
 
 ## Motivations:
 ![](https://img.shields.io/badge/Motivations-Introduction-yellow)
@@ -40,6 +59,9 @@ Welcome to my awesome project! This project is designed to do amazing things and
 ![](https://img.shields.io/badge/Languages-Code-purple)
 
 There are many different implementations of Brainfuck, including:
+
+<img center src="holy-brainfuck-images/Holy-Brain-Fuck.jpeg" width="15%" >
+
 
 ---
 ### Javascript: 
