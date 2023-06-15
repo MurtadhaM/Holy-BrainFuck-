@@ -1,15 +1,15 @@
 /**
- * Author: Murtadha Marzouq
- * Description: hbf or (Holy Brain Fuck ) is a small project I created to help me learn more about programming languages
- * Function: It takes in a brainfuck source code and interprets it in Rust like a. This maybe a front to all thing good and holy but it was fun. It is like cursing but in shaksprian style
- * Resources: 
- * 1. https://doc.rust-lang.org/book/
- * 2. https://en.wikipedia.org/wiki/Brainfuck
- * 3. https://benwendt.ca/articles/converting-to-bf/
- * 4. https://github.com/usaikiran/brainfuck-visualizer
- * 5. http://www.muppetlabs.com/~breadbox/bf/
- * 6. https://esolangs.org/wiki/Category:Brainfuck_derivatives
- * 7. http://www.chriswarbo.net/blog/2014-12-22-minimal_languages.html
+ * # Author: Murtadha Marzouq
+ * # Description: hbf or (Holy Brain Fuck ) is a small project I created to help me learn more about programming languages
+ * # Function: It takes in a brainfuck source code and interprets it in Rust like a. This maybe a front to all thing good and holy but it was fun. It is like cursing but in shaksprian style
+ * # Resources: 
+ * # 1. https://doc.rust-lang.org/book/
+ * # 2. https://en.wikipedia.org/wiki/Brainfuck
+ * # 3. https://benwendt.ca/articles/converting-to-bf/
+ * # 4 . https://github.com/usaikiran/brainfuck-visualizer
+ * # 5. http://www.muppetlabs.com/~breadbox/bf/
+ * # 6. https://esolangs.org/wiki/Category:Brainfuck_derivatives
+ * # 7. http://www.chriswarbo.net/blog/2014-12-22-minimal_languages.html
  * 
  *
 */
