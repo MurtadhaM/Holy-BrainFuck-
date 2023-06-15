@@ -29,6 +29,9 @@ Function: It takes in a brainfuck source code and interprets it in Rust like a. 
 - [Brainfuck Derivatives](https://esolangs.org/wiki/Category:Brainfuck_derivatives) ![Brainfuck Derivatives Logo](https://www.google.com/s2/favicons?domain=https://esolangs.org)
 - [Minimal Languages](http://www.chriswarbo.net/blog/2014-12-22-minimal_languages.html) ![Minimal Languages Logo](https://www.google.com/s2/favicons?domain=http://www.chriswarbo.net)
 
+- [Walkthrough Video](https://www.youtube.com/watch?v=4uNM73pfJn0) ![Minimal Languages Logo](https://www.google.com/s2/favicons?domain=http://www.chriswarbo.net)
+
+
 
 ## Motivations:
 ![](https://img.shields.io/badge/Motivations-Introduction-yellow)
@@ -64,19 +67,24 @@ There are many different implementations of Brainfuck, including:
 
 
 ---
-### Javascript: 
+### Python: 
 
-```javascript
-Single Thread
+```python
+Dynamically typed and support of OOP
 ```
+<img src="./holy-brainfuck-images/PYTHON.png">
+
 ### Rust: 
 ```rust
-Memory Safty
+Memory Safty and Strongly language
 ```
-### Java: 
-```javascript
-Abstraction and Object Oriented Programming
+<img src="./holy-brainfuck-images/RUST.png">
+
+### C++: 
+```c++
+support of OOP and functional paradigm
 ```
+<img src="./holy-brainfuck-images/C++.png">
 ---
 
 ## POC:
