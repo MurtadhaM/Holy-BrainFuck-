@@ -45,7 +45,6 @@ Function: It takes in a brainfuck source code and interprets it in Rust like a. 
 ![](https://img.shields.io/badge/Plan-STEPS-green)
 
 #### The eight commands are:
-
 | Command | Description |
 | --- | --- |
 | `>` | Increment the data pointer |

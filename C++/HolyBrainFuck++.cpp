@@ -9,6 +9,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <string>
 #include <stdio.h>
 
 using namespace std;
@@ -151,13 +152,6 @@ string get_interactive_input()
     cin >> inputBuffer;
     return inputBuffer;
 }
-
-#include <iostream>
-#include <string>
-
-#include <iostream>
-#include <fstream>
-#include <string>
 
 void printBanner()
 {
