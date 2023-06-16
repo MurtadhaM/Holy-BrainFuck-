@@ -45,6 +45,7 @@ Function: It takes in a brainfuck source code and interprets it in Rust like a. 
 ![](https://img.shields.io/badge/Plan-STEPS-green)
 
 #### The eight commands are:
+
 | Command | Description |
 | --- | --- |
 | `>` | Increment the data pointer |
@@ -69,19 +70,22 @@ There are many different implementations of Brainfuck, including:
 ### Python: 
 
 ```python
-Dynamically typed and support of OOP
+A high-level, interpreted programming language with an emphasis on code readability. It is garbage-collected and dynamically typed.
+Implement the interpreter using classes for the different tokens and operations
 ```
 <img src="./holy-brainfuck-images/PYTHON.png">
 
 ### Rust: 
 ```rust
-Memory Safty and Strongly language
+a multi-paradigm, general-purpose programming language with a focus on efficiency, type safety, and concurrency. It ensures memory safety by employing a Borrow-Checker.
+Implement the interpreter using vectors and immutable variables.
 ```
 <img src="./holy-brainfuck-images/RUST.png">
 
 ### C++: 
 ```c++
-support of OOP and functional paradigm
+C++ : A flexible and powerful programming language. Pointers, functions, classes, and templates are all well explained.
+Implement the interpreter using vectors and pointers, and iterate over the input stream.
 ```
 <img src="./holy-brainfuck-images/C++.png">
 ---
@@ -103,3 +107,4 @@ support of OOP and functional paradigm
 
 ### Murtadha Marzouq
 ![Murtadha Marzouq](https://avatars.githubusercontent.com/u/45076915?s=200&v=4)
+
