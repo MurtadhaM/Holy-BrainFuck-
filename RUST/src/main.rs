@@ -1,4 +1,3 @@
-
 /**
  * # Author: Murtadha Marzouq
  * # Description: hbf or (Holy Brain Fuck ) is a small project I created to help me learn more about programming languages
@@ -46,7 +45,7 @@ pub enum Instruction {
 }
 
 use std::fs::File;
-use std::io::{BufRead, BufReader};
+use std::io::{ BufRead, BufReader };
 
 fn print_banner() {
     if let Ok(file) = File::open("./banner.txt") {
@@ -82,13 +81,20 @@ fn init() {
                 .collect::<Vec<&str>>()[1]
                 .trim()
                 .to_string();
+
+            let file_contents = fs::read_to_string(filename.clone()).expect("failed to read file");
+            let opcodes: Vec<OpCode> = lexer::lex(file_contents);
+            let program: Vec<Instruction> = parser::parse(opcodes);
+            let mut tape: Vec<u8> = vec![0; 1024];
+            let mut data_pointer = 512;
+            run(&program, &mut tape, &mut data_pointer);
         }
         if arg == "-c" {
             code = true;
         }
         if arg == "-d" {
             println!("I do not do anything, but make you feel smarter");
-            interpreter::show_debug(filename.clone());
+
             return;
         }
         if arg == "-o" {
@@ -135,16 +141,11 @@ fn init() {
         std_input();
         return;
     } else if filename.len() > 0 {
-        println!("Reading: {}", filename);
+    
         if output.len() > 0 {
             println!("Output File: {}", output);
         }
-        let file_contents = fs::read_to_string(filename.clone()).expect("failed to read file");
-        let opcodes = lexer::lex(file_contents);
-        let program = parser::parse(opcodes);
-        let mut tape: Vec<u8> = vec![0; 1024];
-        let mut data_pointer = 512;
-        run(&program, &mut tape, &mut data_pointer);
+
         return;
     }
 }

@@ -10,7 +10,6 @@
 ![](https://img.shields.io/badge/HOLY_BRAIN_FUCK-Introduction-red)
 
 hbf or (Holy Brain Fuck ) is a small project I created to help me learn more about programming languages
- 
 Function: It takes in a brainfuck source code and interprets it in Rust like a. This maybe a front to all thing good and holy but it was fun. It is like cursing but in shakespearean style
 
 ---
@@ -35,10 +34,20 @@ Function: It takes in a brainfuck source code and interprets it in Rust like a. 
 
 ## Motivations:
 ![](https://img.shields.io/badge/Motivations-Introduction-yellow)
+```manim
 
-- 
-- 
-- 
+L -> 1
+1 M1
+#$
+ps
+
+```
+
+| Language | Compilation | Memory Management | Performance | Syntax and Semantics | Type System | Paradigms |
+| --- | --- | --- | --- | --- | --- | --- |
+| <img src="https://www.freecodecamp.org/news/content/images/2021/01/rust-mascot.png"> | Compiled | Ownership and borrowing | Comparable to C++, optimized for performance | C-like syntax with {} and ; | Algebraic data type system with enums, trait bounds, lifetimes, etc. | Functional and imperative |
+|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" > | Compiled | Manual memory management with new/delete and smart pointers | Comparable to Rust, optimized for performance | C-like syntax with {} and ; | Sophisticated type system with templates, inheritance and operator overloading | Object-oriented, functional and imperative |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"> | Interpreted | Automatic garbage collection | Slower than Rust and C++ | Clean, simple syntax with indentation for blocks and no ; | Dynamically typed, types assigned at runtime | Primarily object-oriented |
 
 
 ## Plan:

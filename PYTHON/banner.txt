@@ -1,7 +1,16 @@
 
 --------------------------------------------------------------------------------------------------
                                 Holy BrainFuck! 
-usage: python3 HolyBrainFuck.py ./brainfuck.bf
+--------------------------------------------------------------------------------------------------
+usage: HolyBrainFuck.py [-h] [-f FILENAME] [-i]
+
+Brainfuck interpreter
+
+options:
+  -h, --help            show this help message and exit
+  -f FILENAME, --filename FILENAME
+                        Brainfuck file to interpret
+  -i, --interactive     Interactive mode
 --------------------------------------------------------------------------------------------------    
  _      _     ___  _____   __    ___   _      __        _       __    ___  ____  ___   _     ___   
 | |\/| | | | | |_)  | |   / /\  | | \ | |_|  / /\      | |\/|  / /\  | |_)  / / / / \ | | | / / \  

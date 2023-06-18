@@ -30,12 +30,15 @@ pub fn parse(opcodes: Vec<OpCode>) -> Vec<Instruction> {
                 OpCode::Write => Some(Instruction::Write),
                 OpCode::Read => Some(Instruction::Read),
 
+                // If we encounter a loop start, we need to keep track of it,
+                // and ignore the loop body until we find the end of the loop.
                 OpCode::LoopBegin => {
                     loop_start = i;
                     loop_stack += 1;
                     None
                 }
 
+                // We should never encounter a loop end before a loop start.
                 OpCode::LoopEnd => panic!("Unexpected loop end"),
             };
 
@@ -51,6 +54,8 @@ pub fn parse(opcodes: Vec<OpCode>) -> Vec<Instruction> {
                 OpCode::LoopEnd => {
                     loop_stack -= 1;
 
+                    // If we've found the end of the loop, we can parse the loop
+                    // body and add it to the program.
                     if loop_stack == 0 {
                         program.push(Instruction::Loop(parse(opcodes[loop_start + 1..i].to_vec())));
                     }
@@ -60,6 +65,7 @@ pub fn parse(opcodes: Vec<OpCode>) -> Vec<Instruction> {
         }
     }
 
+    // If there are still loops that we haven't closed, we should panic.
     if loop_stack != 0 {
         panic!(" {} loop(s) not closed", loop_stack);
     }

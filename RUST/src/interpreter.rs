@@ -1,4 +1,3 @@
-use std::fs;
 use std::io;
 use std::io::Read;
 
@@ -39,19 +38,7 @@ pub fn run(instructions: &Vec<Instruction>, tape: &mut Vec<u8>, data_pointer: &m
     }
 }
 
-pub fn show_debug(filename: String) {
-    let file_contents = fs::read_to_string(filename.clone()).expect("failed to read file");
-    let opcodes = lexer::lex(file_contents);
-    println!("Opcodes: {:?}", opcodes);
-    let program = parser::parse(opcodes);
-    println!("Program: {:?}", program);
-    let mut tape: Vec<u8> = vec![0; 1024];
-    println!("Tape: {:?}", tape);
-    let mut data_pointer = 512;
-    println!("Data Pointer: {:?}", data_pointer);
-    run(&program, &mut tape, &mut data_pointer);
-    return;
-}
+
 pub fn std_input() {
     let mut input_buffer = String::new();
 
