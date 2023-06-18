@@ -109,7 +109,8 @@ Implement the interpreter using vectors and immutable variables.
 A flexible and powerful programming language. Pointers, functions, classes, and templates are all well explained.
 Implement the interpreter using vectors and pointers, and iterate over the input stream.
 
-```<img src="./holy-brainfuck-images/UML1.png">
+```
+<img src="./holy-brainfuck-images/UML1.png">
 
 <img src="./holy-brainfuck-images/C++.png">
 ---
