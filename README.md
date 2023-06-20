@@ -20,6 +20,9 @@ Function: It takes in a brainfuck source code and interprets it in Rust like a. 
 
 ##### Here are some useful links related to Brainfuck that I used:
 
+- [Mermaid Live](https://mermaid.live)
+- [PUML SERVER](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+
 
 - [Article by Ben Wendt](https://benwendt.ca/articles/converting-to-bf)
 - [Brainfuck Visualizer Logo](https://github.com/usaikiran/brainfuck-visualizer)
